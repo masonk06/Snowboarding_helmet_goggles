@@ -20,6 +20,7 @@ The main electronics are owned. Architecture, remaining parts, and implementatio
 - [Architecture and technical caveats](docs/ARCHITECTURE.md)
 - [Owned inventory and remaining BOM](docs/BOM.md)
 - [Phased implementation and acceptance checks](docs/ROADMAP.md)
+- [Revision-A two-board PCB prototype](docs/PCB_PROTOTYPE.md)
 
 Start with USB-powered bench tests, one OLED and one sensor at a time. Record board revisions and verify module pinouts and voltage requirements before wiring. Final pin assignments and battery selection remain open.
 

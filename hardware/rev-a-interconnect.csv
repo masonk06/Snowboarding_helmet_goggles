@@ -1,0 +1,13 @@
+board,reference,interface,net_or_signal,component_or_footprint,status
+goggle,J1,tether,1:GND;2:GND;3:+5V_GOGGLE;4:RS485_A;5:RS485_B;6:AUX_DETECT,JST_GH_1x06,selected
+goggle,U1,serial bridge,UART + RS-485 A/B,3.3V RS-485 transceiver,placeholder
+goggle,J2,display left,SCLK;MOSI;CS_L;DC_L;RST_L;power;GND,OLED connector actual pinout required,placeholder
+goggle,J3,display right,SCLK;MOSI;CS_R;DC_R;RST_R;power;GND,OLED connector actual pinout required,placeholder
+goggle,J4,controller,XIAO RP2040 headers,actual XIAO revision required,placeholder
+body,J1,tether,1:GND;2:GND;3:+5V_GOGGLE;4:RS485_A;5:RS485_B;6:AUX_DETECT,JST_GH_1x06,selected
+body,U1,serial bridge,UART + RS-485 A/B,3.3V RS-485 transceiver,placeholder
+body,J2,controller,ESP32-S3 headers,actual ESP32-S3 variant required,placeholder
+body,J3,GPS,UART + power,NEO-6M header actual pinout required,placeholder
+body,J4,IMU,I2C + power,MPU6050 header actual pinout required,placeholder
+body,J5,barometer,I2C + power,BMP280 header actual pinout required,placeholder
+body,U2,power,battery to protected regulated 5V,charger/protection/regulator to be chosen,open
