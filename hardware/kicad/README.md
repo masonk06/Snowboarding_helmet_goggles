@@ -7,6 +7,8 @@ KiCad 10 project for two **carrier PCBs** that the owned development boards and 
 | **Goggle** (HUD renderer) | 30.5 × 29.5 mm | Seeed XIAO RP2040, two 7-pin OLED headers, JST-PH 4-pin cable connector, 5 V solder jumper, 2× M2 holes |
 | **Jacket** (sensors / telemetry) | 66.0 × 63.5 mm | ESP32-S3-DevKitC-1 on 2×22 female sockets, NEO-6M / MPU6050 / BMP280 sockets, JST-PH 4-pin cable connector, 4× M2 holes |
 
+> **Looking for the no-cable version?** See the separate [connection via Bluetooth / wireless option](../option-bluetooth-wireless/README.md) (XIAO ESP32S3 + LiPo at the goggles).
+
 Both boards are in **one** `SnowHUD.kicad_pcb` (two separate outlines), 2 copper layers, 1.6 mm, with GND pours on both layers.
 
 ![Top view](images/pcb_top.png)

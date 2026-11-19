@@ -22,6 +22,16 @@ The main electronics are owned. Architecture, remaining parts, and implementatio
 - [Phased implementation and acceptance checks](docs/ROADMAP.md)
 - [Revision-A two-board PCB prototype](docs/PCB_PROTOTYPE.md)
 - [KiCad project: rev 0.2 bench carrier PCBs](hardware/kicad/README.md): schematic, routed two-board layout, Gerbers, pin maps and cable wiring
+- [**Option: connection via Bluetooth / wireless**](hardware/option-bluetooth-wireless/README.md): separate alternative design with no goggle-jacket cable. XIAO ESP32S3 + LiPo at the goggles, radio link via ESP-NOW or Bluetooth LE.
+
+### Hardware folders
+
+| Folder | Design | Link between goggles and jacket |
+| --- | --- | --- |
+| `hardware/kicad/` | Cable version, rev 0.2 | 4-wire JST-PH cable (UART + 5 V) |
+| `hardware/option-bluetooth-wireless/` | **Wireless option**, rev W0.1 | Radio (ESP-NOW / Bluetooth LE), goggle battery |
+
+Choose one for a build. Both share the same OLED, sensor and jacket-board wiring.
 
 ## Update — November 19, 2026
 

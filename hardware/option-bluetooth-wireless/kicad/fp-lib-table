@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SnowHUD_Wireless")(type "KiCad")(uri "${KIPRJMOD}/SnowHUD_Wireless.pretty")(options "")(descr "SnowHUD wireless option footprints"))
+)

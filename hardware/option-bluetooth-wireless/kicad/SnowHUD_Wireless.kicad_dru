@@ -1,0 +1,4 @@
+(version 1)
+# Pads in the GND pours are also connected by routed traces, so a single thermal spoke is acceptable.
+(rule "single_thermal_spoke_ok"
+  (constraint min_resolved_spokes 1))

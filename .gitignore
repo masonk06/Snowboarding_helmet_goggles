@@ -8,6 +8,6 @@ fp-info-cache
 _autosave-*
 *.bak
 # generated intermediates
-hardware/kicad/scripts/*.net
-hardware/kicad/scripts/drc.txt
+hardware/**/scripts/*.net
+hardware/**/scripts/drc.txt
 __pycache__/

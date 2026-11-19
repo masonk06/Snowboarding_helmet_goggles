@@ -32,4 +32,14 @@ Inventory confirmed by the project owner on November 6, 2026. Ownership does not
 | Adjustable goggle mounts and enclosure | 1 set | Optical results, comfort, clear view, moisture protection |
 | Perfboard/PCB, locking connectors, fasteners | As designed | Proven wiring and pin allocation; custom PCB comes later |
 
+## Option: connection via Bluetooth / wireless (separate design)
+
+Only needed if the [wireless option](../hardware/option-bluetooth-wireless/README.md) is chosen instead of the cable. Full list: [`hardware/option-bluetooth-wireless/BOM.md`](../hardware/option-bluetooth-wireless/BOM.md).
+
+| Item | Qty | Selection gate |
+| --- | ---: | --- |
+| Seeed Studio XIAO ESP32S3 (replaces XIAO RP2040 at the goggles) | 1 | Pin labels and underside BAT pad location vs. carrier PCB |
+| Goggle 1S LiPo, JST-PH 2-pin, ~300–500 mAh, protected | 1 | Measured goggle current, runtime, cold behaviour, **lead polarity** |
+| Slide switch C&K OS102011MS2Q, 2× 220 kΩ + 100 nF (0603), JST-PH 2-pin header | 1 set | Fit on goggle carrier |
+
 Record exact part numbers and schematics before ordering the power, cable, and optics system. Obtain current quotations after the design gates; prior conversation cost ranges were rough estimates rather than a validated shopping list.
