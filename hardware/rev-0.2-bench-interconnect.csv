@@ -1,0 +1,11 @@
+board,reference,interface,net_or_signal,component_or_footprint,status
+goggle,J3,cable to jacket,1:+5V_CABLE;2:GND_HUD;3:HUD_RX;4:HUD_TX,Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical,routed
+goggle,JP1,5V select,+5V_CABLE to +5V_HUD (XIAO 5V),Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,routed (open by default)
+goggle,U1,controller,XIAO RP2040 D0 CS_L;D1 CS_R;D2 DC;D3 RST;D6 TX;D7 RX;D8 SCK;D10 MOSI,SnowHUD:XIAO_RP2040_THT,routed - verify 15.24mm row spacing
+goggle,DS1,display left,1:VCC;2:GND;3:DIN;4:CLK;5:CS_L;6:DC;7:RST,Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical,routed - verify OLED pin order
+goggle,DS2,display right,1:VCC;2:GND;3:DIN;4:CLK;5:CS_R;6:DC;7:RST,Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical,routed - verify OLED pin order
+jacket,J4,cable to goggle,1:+5V_ESP;2:GND;3:LINK_ESP_TX;4:LINK_RP_TX,Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical,routed
+jacket,U2,controller,ESP32-S3 GPIO4 U2TX;GPIO5 U2RX;GPIO7 INT;GPIO8 SDA;GPIO9 SCL;GPIO17 U1TX;GPIO18 U1RX,SnowHUD:ESP32-S3-DevKitC-1_Socket,routed - verify 22.86mm row spacing
+jacket,U3,GPS,1:VCC(5V);2:RX;3:TX;4:GND,Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical,routed - verify module pin order
+jacket,U4,IMU,1:VCC;2:GND;3:SCL;4:SDA;5:XDA nc;6:XCL nc;7:AD0=GND;8:INT,Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical,routed - verify module pin order
+jacket,U5,barometer,1:VCC;2:GND;3:SCL;4:SDA;5:CSB=3V3;6:SDO=GND,Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical,routed - verify module pin order

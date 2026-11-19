@@ -2,6 +2,8 @@
 
 This is the first layout-ready electrical definition for the two-board wearable prototype. It is a **carrier-PCB design**: the purchased development boards and breakout modules plug into headers or cable connectors. It intentionally does not assume their final footprints or pin mappings.
 
+> **Implemented so far (Nov 19, 2026):** a **rev 0.2 bench carrier** KiCad project lives in [`hardware/kicad/`](../hardware/kicad/README.md). It is a routed, DRC-clean two-board layout of the bench wiring: XIAO + 2 OLED headers on the goggle board, ESP32-S3-DevKitC-1 + GPS/IMU/baro sockets on the jacket board. They are joined by a 4-wire JST-PH cable carrying 3.3 V UART. It is a stepping stone and does **not** yet implement the RS-485 tether, JST-GH connector, or protection described below. See the gap table in that README. The revision-A requirements on this page still stand.
+
 ## Board split
 
 | Board | Location | Carries |

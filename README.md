@@ -21,6 +21,11 @@ The main electronics are owned. Architecture, remaining parts, and implementatio
 - [Owned inventory and remaining BOM](docs/BOM.md)
 - [Phased implementation and acceptance checks](docs/ROADMAP.md)
 - [Revision-A two-board PCB prototype](docs/PCB_PROTOTYPE.md)
+- [KiCad project: rev 0.2 bench carrier PCBs](hardware/kicad/README.md): schematic, routed two-board layout, Gerbers, pin maps and cable wiring
+
+## Update — November 19, 2026
+
+Added a KiCad 10 project in `hardware/kicad/`. It contains the bench schematic, now with cable connectors, and a routed 2-layer layout for a **goggle carrier** (XIAO RP2040 + two OLED headers) and a **jacket carrier** (ESP32-S3-DevKitC-1 + NEO-6M / MPU6050 / BMP280 sockets). The two boards are joined by a 4-wire JST-PH cable. ERC and DRC pass with zero issues, and fab files are included. Header spacings and module pinouts still need to be measured on the owned boards before ordering. This bench carrier does not yet include the RS-485 tether and protection specified for revision A.
 
 Start with USB-powered bench tests, one OLED and one sensor at a time. Record board revisions and verify module pinouts and voltage requirements before wiring. Final pin assignments and battery selection remain open.
 

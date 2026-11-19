@@ -1,0 +1,13 @@
+# KiCad local/user state and backups
+*.kicad_prl
+*.lck
+~*.lck
+.history/
+*-backups/
+fp-info-cache
+_autosave-*
+*.bak
+# generated intermediates
+hardware/kicad/scripts/*.net
+hardware/kicad/scripts/drc.txt
+__pycache__/
